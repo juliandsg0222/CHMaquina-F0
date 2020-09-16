@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>CHMáquina V2020-1</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <!--Iconos para la barra lateral-->
+        <link rel="stylesheet" href="icon/style.css">
+
+        <!--Estilos para todo el archivo html-->
+        <link rel="stylesheet" href="css/estilos.css">
+
+        <!--bootsrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+
+        <main>            
+            <!--Menú principal barra lateral-->
+            <div class="contenidoMenuPrincipal">
+
+                <div class="contenidoMenuSuperior">
+                    <!--Icono y texto Archivo-->
+                    <li><span class="lnr lnr-cog iconoArchivo"></span><h4 class="textoArchivo">Archivo</h4></li>
+
+                    <!--Icono y texto Ejecutar-->
+                    <li><span class="lnr lnr-rocket iconoEjecutar"></span><h4 class="textoEjecutar">Ejecutar</h4></li>
+
+                    <!--Icono y texto Pausar-->
+                    <li><span class="lnr lnr-construction iconoPausar"></span><h4 class="textoPausar">Pausar</h4></li>
+
+                    <!--Icono y texto Paso a Paso-->
+                    <li><span class="lnr lnr-list iconoPasoaPaso"></span><h4 class="textoPasoaPaso">Paso a Paso</h4></li>
+
+                    <!--Icono y texto Mostrar Memoria-->
+                    <li><span class="lnr lnr-database iconoMostrarMemoria"></span><h4 class="textoMostrarMemoria">Mostrar Memoria</h4></li>
+                </div>
+
+                <div class="contenidoMenuCentral">
+                    <!--Icono y texto Descripción General-->
+                    <li><span class="lnr lnr-magic-wand iconoDescripcionGeneral"></span><h4 class="textoDescripcionGeneral">Descripción General</h4></li>
+
+                    <!--Icono y texto Información del Autor-->
+                    <li><span class="lnr lnr-user iconoInformaciondelAutor"></span><h4 class="textoInformaciondelAutor">Información del Autor</h4></li>   
+                </div>
+
+                <div class="contenidoMenuInferior">
+                    <!--Icono y texto Reiniciar CHMáquina-->
+                    <li><span class="lnr lnr-sync iconoReiniciarCHMaquina"></span><h4 class="textoReiniciarCHMaquina">Reiniciar CHMáquina</h4></li>
+
+                    <!--Icono y texto Apagar CHMáquina-->
+                    <li><span class="lnr lnr-power-switch iconoApagarCHMaquina"></span><h4 class="textoApagarCHMaquina">Apagar CHMáquina</h4></li>
+                </div>
+
+            </div>
+            <!--Fin Menú principal barra lateral-->
+
+
+            <!--Sección contenido principal-->
+            <!--Fila única-->
+            <div class="row">
+                <!--Primera columna-->
+                <div class="contenidoBloqueA col-md-4">
+                    <br>
+                    <p class="textoMapadeMemoria"><b>Mapa de Memoria</b></p>
+                    <!--Tabla mapa de memoria-->
+                    <div class="container">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover table-sm">
+                                <tr class="table-info">
+                                    <th>Dirección</th>
+                                    <th>Contenido</th>
+                                </tr>
+
+                                <tr>
+                                    <td>0000</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>0001</td>
+                                    <td>"CHSOS V2020-1S"</td>
+                                </tr>
+                                <tr>
+                                    <td>0002</td>
+                                    <td>"CHSOS V2020-1S"</td>
+                                </tr>
+                                <tr>
+                                    <td>0003</td>
+                                    <td>"CHSOS V2020-1S"</td>
+                                </tr>
+                                <tr>
+                                    <td>0004</th>
+                                    <td>"CHSOS V2020-1S"</td>
+                                </tr>
+                                <tr>
+                                    <td>0005</th>
+                                    <td>"CHSOS V2020-1S"</td>
+                                </tr>
+                                <tr>
+                                    <td>0006</th>
+                                    <td>"CHSOS V2020-1S"</td>
+                                </tr>
+                                <tr>
+                                    <td>0007</th>
+                                    <td>"CHSOS V2020-1S"</td>
+                                </tr>
+                                <tr>
+                                    <td>0008</th>
+                                    <td>"CHSOS V2020-1S"</td>
+                                </tr>
+                                <tr>
+                                    <td>0009</td>
+                                    <td>"CHSOS V2020-1S"</td>
+                                </tr>
+                                <tr>
+                                    <td>0010</td>
+                                    <td>"CHSOS V2020-1S"</td>
+                                </tr>
+                                <tr>
+                                    <td>0011</td>
+                                    <td>nueva unidad I 1</td>
+                                </tr>
+                                <tr>
+                                    <td>0012</td>
+                                    <td>nueva m I 5</td>
+                                </tr>
+                                <tr>
+                                    <td>0013</td>
+                                    <td>nueva respuesta I 1</td>
+                                </tr>
+                                <tr>
+                                    <td>0014</td>
+                                    <td>nueva intermedia I 0</td>
+                                </tr>
+                                <tr>
+                                    <td>0015</td>
+                                    <td>cargue m</td>
+                                </tr>
+                                <tr>
+                                    <td>0016</td>
+                                    <td>almacene respuesta</td>
+                                </tr>
+                                <tr>
+                                    <td>0017</td>
+                                    <td>reste unidad</td>
+                                </tr>
+                                <tr>
+
+                            </table>
+                        </div>            
+                    </div>
+
+                </div>
+
+                <!--Segunda columna-->
+                <div class="contenidoBloqueB1 col-md-3">
+                    <br>
+                    <img src="images/pc.png">
+                    <br><br>
+                    <p class="textoKernelUsuario"><em>Modo Kernel</em></p>
+                    <br>
+                    <img src="images/impresora.png" width="400px">
+                    
+                </div>
+
+            
+                <!--Tercera columna-->
+                <div class="contenidoBloqueC col-md-2">
+                    <section class="cajaVelocidad">
+                        <br>
+                        <h3 class="textoVelocidad"><b>Velocidad</b></h3>
+                        <input type="range">
+                        <h3 class="signoVelocidad">- ............ +</h3>
+                    </section>
+                    <!--
+                    <section class="MemoriayKernel">
+                        <h4 class=textoMemoriayKernel><b>Memoria</b></h4>
+                        <input type="number" size="2px">
+                    </section>
+                    -->
+
+                </div>
+
+                <!--Cuarta columna-->
+                <div class="contenidoBloqueD col-md-3">
+                    <section class="cajaAcumulador">
+                        <h3 class="textoAcumulador"><b>Acumulador</b></h3>
+                        <br>
+                        <input type="text" size="30px">
+                    </section>
+                </div>
+
+                <!--
+                <div class="col-auto">
+                    <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">Memoria</div>
+                      </div>
+                      <input type="number" class="form-control" id="inlineFormInputGroup" placeholder="Tamaño de la Memoria">
+                    </div>
+                </div>
+                -->
+    
+            </div>
+
+        </main>
+
+
+        <footer class="textoPiedePagina">
+            Derechos Reservados &#169 2020.1S  -  Universidad Nacional de Colombia
+        </footer>
+
+    </body>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="json/mapa_memoria_inicial.json"></script>
+
+
+
+</html>

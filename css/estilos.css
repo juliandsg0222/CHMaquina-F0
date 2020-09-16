@@ -1,0 +1,235 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+}
+
+/*Tamaño y color de la barra lateral*/
+.contenidoMenuPrincipal {
+    width: 120px;
+    background: #161616;
+    float: left;
+}
+
+/*Reinicio del estilo de fuente para centrarlo junto con los iconos y cambiar estilo del cursor*/
+.contenidoMenuPrincipal li {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+/*Tamaño de fuente del icono barra lateral*/
+.contenidoMenuPrincipal li span {
+    font-size: 40px;
+}
+
+/*Tamaño de fuente del texto barra lateral*/
+.contenidoMenuPrincipal li h4 {
+    font-weight: 100px;
+}
+
+/*Transición de color cuando se posiciona el cursor sobre cada icono*/
+.contenidoMenuSuperior li:hover{
+    transform: translateY(0px);
+    background: rgba(113, 175, 116, 0.5);
+}
+
+/*Transición de color cuando se posiciona el cursor sobre cada icono*/
+.contenidoMenuCentral li:hover{
+    transform: translateY(0px);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/*Transición de color cuando se posiciona el cursor sobre cada icono*/
+.contenidoMenuInferior li:hover{
+    transform: translateY(0px);
+    background: rgba(224, 117, 117, 0.5);
+}
+
+/* Color icono Archivo*/
+.iconoArchivo {
+    color:#BA7404;
+}
+
+/* Color icono Ejecutar*/
+.iconoEjecutar {
+    color: #4CAF50;
+}
+
+/* Color icono Pausar*/
+.iconoPausar {
+    color:#F1C40F;
+}
+
+/* Color icono Paso a Paso*/
+.iconoPasoaPaso {
+    color:#3498DB;
+}
+
+/* Color icono Mostrar Memoria*/
+.iconoMostrarMemoria {
+    color:#8E44AD;
+}
+
+/* Color icono Descripción General*/
+.iconoDescripcionGeneral {
+    color:#E91E63;
+}
+
+/* Color icono Información del Autor*/
+.iconoInformaciondelAutor {
+    color:#FFFFFF;
+}
+
+/* Color icono Reiniciar CHMáquina*/
+.iconoReiniciarCHMaquina {
+    color:#FF5722;
+}
+
+/* Color icono Apagar CHMáquina*/
+.iconoApagarCHMaquina {
+    color:#B71C1C;
+}
+
+/* Color texto Archivo*/
+.textoArchivo {
+    color:#BA7404;
+    font-size: 15px;
+}
+
+/* Color texto Ejecutar*/
+.textoEjecutar {
+    color: #4CAF50;
+    font-size: 15px;
+}
+
+/* Color texto Pausar*/
+.textoPausar {
+    color:#F1C40F;
+    font-size: 15px;
+}
+
+/* Color texto Paso a Paso*/
+.textoPasoaPaso {
+    color:#3498DB;
+    font-size: 15px;
+}
+
+/* Color texto Mostrar Memoria*/
+.textoMostrarMemoria {
+    color:#8E44AD;
+    font-size: 15px;
+}
+
+/* Color texto Descripción General*/
+.textoDescripcionGeneral {
+    color:#E91E63;
+    font-size: 15px;
+}
+
+/* Color texto Información del Autor*/
+.textoInformaciondelAutor {
+    color:#FFFFFF;
+    font-size: 15px;
+}
+
+/* Color texto Reiniciar CHMáquina*/
+.textoReiniciarCHMaquina {
+    color:#FF5722;
+    font-size: 15px;
+}
+
+/* Color texto Apagar CHMáquina*/
+.textoApagarCHMaquina {
+    color:#B71C1C;
+    font-size: 15px;
+}
+
+/*Colores y fuentes texto pie de página*/
+.textoPiedePagina {
+    clear:both;
+    padding: 0.5px;
+    background: #161616;
+    color:white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/*Sección principal */
+/*Bloque izquierdo*/
+.textoMapadeMemoria {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    color:rgb(51, 181, 185)
+}
+
+.container {
+    text-align: center;
+}
+/*Fin bloque izquierdo*/
+
+
+/*Bloque centro*/
+.textoKernelUsuario{
+    text-align: center;
+    font-size: 20px;;
+    font-family: 'Times New Roman', Times, serif;
+    background: seagreen;
+    border: solid green;
+    border-radius: 1cm;
+    
+}
+/*Fin bloque centro*/
+
+
+/*Bloque derecho*/
+.cajaVelocidad {
+    border: solid black;
+    width: 200px;
+}
+
+/*Fin bloque derecho*/
+
+/*Bloque ultraderecho*/
+.cajaVelocidad {
+    border: solid black;
+    margin-left: 10px;
+    text-align: center;
+    background-color: transparent;
+    background-image: url(http://www.hdfondos.eu/pictures/2014/0417/1/halo-wallpaper-463230.jpg);
+    background-size: 120%;
+    margin-top: 30px;
+}
+
+.signoVelocidad {
+    color:white;
+}
+
+.textoVelocidad {
+    color:white;
+}
+
+
+/*Fin bloque ultraderecho*/
+.cajaAcumulador{
+    text-align: center;
+    margin-top: 30px;
+    border: solid black;
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: transparent;
+    background-image: url(https://i.ytimg.com/vi/tn9vTGbb9Ro/maxresdefault.jpg);
+}
+
+.textoAcumulador {
+    color: white;
+}
